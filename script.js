@@ -1,7 +1,14 @@
 
-
-function firstNut(x) {
-    return (x > 0) - (x < 0) ;
+// Oppgave nummer 1
+function firstNut(number) {
+    return (number > 0) - (number < 0) ;
 }
 
 console.log(firstNut(1000))
+
+//-------------------------------------------//
+
+// Oppgave nummer 2
+
+
+
