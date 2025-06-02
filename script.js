@@ -1,25 +1,7 @@
 
-let output = null
-const firstOppgave = (number) => {
-   
-   
 
-   switch (number) {
-      case (number > 0): 
-         output = 1
-         break;
-      case number === 0: 
-         output = 0
-         break;
-      case number < 0: 
-         output = -1
-         break;
-   
-      default:
-         console.log(number)
-         break;
-   }
-   return output;
+function firstNut(x) {
+    return (x > 0) - (x < 0) ;
 }
 
-console.log(firstOppgave(23))
+console.log(firstNut(1000))
